@@ -29,5 +29,5 @@ graph TD
     
     subgraph Intelligence Layer
         Backend -->|Internal Service| JavaAlgo[Java Prediction Engine]
-        Backend -.->|HTTP (Legacy)| Python[Python ML Service]
+        Backend -.->|HTTP - Legacy| Python[Python ML Service]
     end
